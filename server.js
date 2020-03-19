@@ -25,6 +25,7 @@ io.on("connection",function(socket){
 // app.get("/getData",function(req,res){
     // res.end("<h1>express responding</h1>");
 // })
-server.listen(3000,function(){
+const port=process.env.PORT||3000;
+server.listen(port,function(){
     console.log("server is listening at port 3000");
 })
