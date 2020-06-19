@@ -16,7 +16,7 @@
 .tool-options{
     height:4rem;
     width:12rem;
-    background-color: darkblue;
+    background-color: whitesmoke;
     display: none;
     align-items: center;
 }
@@ -62,12 +62,16 @@ input{
 }
 .tool-options{
     position: absolute;
-    top:3.75rem;
+    top:4.25rem;
     right: -2.75rem;
-
 }
 .hidden{ 
     display: none;
+}
+
+#eraser-size{
+ margin-top: 1.2rem;
+ margin-left: 0.5rem;
 }
 
 /* .circle{
